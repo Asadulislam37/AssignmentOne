@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Titillium+Web:wght@200;400;600;700&display=swap');
+
+*{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url('Images/donation7.jpg');
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-text{
+    
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+}
+
+.button{
+    padding: 15px 25px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.amount{
+    display: inline;
+    font-size: 30px;
+    border: 1px ;
+    padding: 10px;
+    margin: 10px 2px;
+    color: silver;
+    background-color: rgba(228, 227, 227, 0.226);
+    
+}
+.amount200{
+    border: 1px solid ;
+    color: tomato;
+}
+.amount-ul{
+    margin: 30px 0;
+}
+.input{
+    border: none;
+    border-bottom: 1px solid silver;
+    font-size: 15px;
+    width: 550px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: silver;
+}
+.donation{
+    margin-top: 30px;
+    text-align: center;
+    /* font-size: 20px; */
+    height: 350px;
+    /* display: i; */
+    align-items: center;
+    justify-content: center;
+    /* width: 500px; */
+}
+.donation h2{
+    font-size: 35px;
+}
+.donation p{
+    font-size: 16px;
+    color: gray;
+}
+.donation-plan{
+    text-align: center;
+    /* font-size: ; */
+}
+.donations-options{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    
+}
+.do-options{
+    border: 1px ;
+    margin: 5px;
+    padding: 40px 20px;
+    text-align: left;
+    flex-basis: 33%;
+}
+.do-options img{
+    padding: 10px 0;
+}
+.do-options h1{
+    padding: 10px 0;
+    font-size: 22px;
+}
+.do-options p{
+    padding: 10px 0;
+    color: gray;
+}
+.do-color1{
+    background-color: rgb(215, 248, 248);
+}
+.do-color2{
+    background-color: rgb(243, 213, 213);
+}
+.do-color3{
+    background-color: pink;
+}
+.dp-header p{
+    padding: 20px;
+    color: gray;
+}
+.contribute-content{
+    flex-basis: 50%;
+    font-size: 18px;
+    margin: 20px 10px;
+}
+.contribute-content p{
+    padding: 40px 0;
+    color: gray;
+}
+.contribute1{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.contribute-img{
+    flex-basis: 50%;
+    margin: 20px 10px;
+}
+.contribute-img img{
+    width: 100%;
+}
+.get-update{
+    text-align: center;
+    margin: 50px ;
+    
+}
+.update-text{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.update-text p{
+    color: gray;
+}
+.update-input{
+    padding: 40px 0;
+    background-color: rgb(245, 221, 217);
+    width: 60%;
+    margin: auto;
+    
+}
+.esub{
+    padding: 15px 55px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240, 236, 236);
+    margin: 0px;
+    color: gray;
+}
+.Subscribe{
+    margin: 0px;
+}
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+#footer h1{
+    font-family: 'Kalam', cursive;
+    color: tomato;
+
+}
